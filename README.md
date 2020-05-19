@@ -8,4 +8,4 @@ Once you've set all of your options click on the generate button and you're all 
 
 GitHub Pages link: https://brendog95.github.io/random-password-generator/
 
-![Image description](../master/assets/images/pwg-gen-nonum-nosym.png)
+![Random password with no numbers or special characters](https://github.com/brendog95/random-password-generator/blob/master/assets/images/pwg-gen-nonum-nosym.PNG)
