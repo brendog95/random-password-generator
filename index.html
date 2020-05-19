@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
   </head>
     <div class="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>Generate a Password</h2>
-        </div>
+        <div class="card">
+          <div class="card-header">
+            <h2>Generate a Password</h2>
+          </div>
+
+        <!--Container where the new password is displayed-->
         <div class="card-body">
           <textarea
             readonly
@@ -23,17 +25,20 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
-            <div>
-                Choose a password length between 8-24:<input type="number" id="charNum" value="12" min="8" max="24"/><br>
-                Would you like numbers?<input type="checkbox" id="number"/><br>
-                Would you like special characters?<input type="checkbox" id="symbol"/><br>
 
-            </div> 
+          <!--Input options for length, symbols and numbers-->
+          <div>
+            Choose a password length between 8-24:<input type="number" id="charNum" value="10" min="8" max="24"/><br>
+            Would you like numbers?<input type="checkbox" id="number"/><br>
+            Would you like special characters?<input type="checkbox" id="symbol"/><br>
+          </div> 
+
+        <!--Houses the button to generate the password-->
         <div class="card-footer">
           <button id="generatebtn" class="btn">Generate Password</button>
         </div>
       </div>
     </div>
-    <script src="assets/script.js"></script>
+    <script src="assets/JavaScript/script.js"></script>
   </body>
 </html>
